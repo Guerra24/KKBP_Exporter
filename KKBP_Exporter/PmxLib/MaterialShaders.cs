@@ -1019,6 +1019,10 @@ public class MaterialShaders
 		{
 			new MaterialShaderItem("Color", "Color")
 		}),
+		new MaterialShader("Koikano/main_color", new List<MaterialShaderItem>
+		{
+			new MaterialShaderItem("Color", "Color")
+		}),
 		new MaterialShader("IBL_Shader", new List<MaterialShaderItem>
 		{
 			new MaterialShaderItem("DetailMask", "Texture"),
